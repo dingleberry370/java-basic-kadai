@@ -13,13 +13,8 @@ public class KatoExec_Chapter18 {
 		hanako.setGivenName("花子");
 		
 		taro.execIntroduce();
-		taro.eachIntroduce();
-
 		ichiro.execIntroduce();
-		ichiro.eachIntroduce();
-		
 		hanako.execIntroduce();
-		hanako.eachIntroduce();
 		
 	}
 

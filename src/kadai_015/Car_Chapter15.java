@@ -16,10 +16,12 @@ public class Car_Chapter15 {
 			case 5 -> speed = 50;
 		default -> speed = 10;
 		}
+		System.out.println("ギア1から"+afterGear+"に切り替えました");
+		
 	}
 	
 	public void run () {
-		System.out.println("現在のギアは"+gear+"で、スピードは"+speed+"kmです");
+		System.out.println("速度は時速"+speed+"kmです");
 	};
 
 }

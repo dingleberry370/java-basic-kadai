@@ -9,12 +9,13 @@ abstract public class Kato_Chapter18 {
 	abstract void eachIntroduce ();
 	
 	public void commonIntroduce () {
+		System.out.println("名前は"+familyName+givenName+"です");
 		System.out.println("住所は"+address+"です");
 	}
 	
 	public void execIntroduce () {
-		System.out.println("名前は"+familyName+givenName+"です");
 		this.commonIntroduce();
+		this.eachIntroduce();
 	}
 	
 }
